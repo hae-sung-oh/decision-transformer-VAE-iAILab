@@ -1,0 +1,32 @@
+name: base
+channels:
+  - defaults
+  - rdkit
+  - conda-forge
+  - pytorch
+dependencies:
+  - conda
+  - python=3.7
+  - pytorch
+  - nb_conda_kernels
+  - seaborn
+  - rdkit
+  - jupyter
+  - ipywidgets
+  - tqdm
+  - yapf
+  - cudatoolkit=10.1
+  - torchvision
+  - jupyter_contrib_nbextensions
+  - numpy
+  - dask
+  - matplotlib
+  - scipy
+  - isort
+  - xlrd
+  - openpyxl
+  - scikit-learn
+  - pip:
+    - more-itertools==8.2.0
+    - selfies==0.2.4
+    - nujson
